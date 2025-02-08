@@ -40,8 +40,9 @@ html {
 body {
     background-color: var(--back);
     width: 391px;
-    height: 100dvw;
+    height: 80dvw;
     text-align: center;
+    overflow: hidden;
 }
 
 .foto{
