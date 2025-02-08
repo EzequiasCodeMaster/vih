@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --back:#f7cad0;
+    --h1: #ff477e;
+    --p: #ff0a54;
+    --fundo: #ff7096;
+    --rosa5: ;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: var(--back);
+    width: 391px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto img {
+    width: 200px;
+}
+
